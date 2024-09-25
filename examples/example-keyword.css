@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between logo and navbar items */
+}
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 5em;
+    list-style: none;
+    margin-right: 2em;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+
+  #logo {
+    margin-left: 2em;
+    font-weight: 700;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 55px;
+  }
+
+  /* Container styles */
+.container {
+    margin: 0;
+    height: 100%;
+}
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 55px;
+  }
+
+  p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .text-container {
+    max-width: 600px;
+    width: 80vw;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  pre {
+    background-color: #e7e7ec;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    text-align: left;
+    overflow-y: auto;
+    width: 100%;
+
+  }
+  
+  .code {
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .keyword {
+    color: blueviolet;
+  }
+  
+  .variable {
+    color: rgb(221, 121, 27);
+  }
+  
